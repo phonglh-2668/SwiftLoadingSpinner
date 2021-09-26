@@ -1,0 +1,6 @@
+framework module SwiftLoadingSpinner {
+  umbrella header "SwiftLoadingSpinner-umbrella.h"
+
+  export *
+  module * { export * }
+}

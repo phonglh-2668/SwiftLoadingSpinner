@@ -1,0 +1,16 @@
+PODS:
+  - SwiftLoadingSpinner (0.1.0)
+
+DEPENDENCIES:
+  - SwiftLoadingSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftLoadingSpinner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftLoadingSpinner: db3ec98dae8b189ccc457412e674e22c35012daf
+
+PODFILE CHECKSUM: c329a043c95ac8681f7ee279341ba0f52a139abc
+
+COCOAPODS: 1.10.1

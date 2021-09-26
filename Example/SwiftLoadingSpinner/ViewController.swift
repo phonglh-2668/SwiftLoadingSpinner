@@ -7,18 +7,30 @@
 //
 
 import UIKit
+import SwiftLoadingSpinner
 
 class ViewController: UIViewController {
-
+    
+    private let loading: SwiftLoadingSpinner = {
+        let loading = SwiftLoadingSpinner(icon: .square,
+                                          animation: .spiral)
+        return loading
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(loading)
+        view.backgroundColor = .orange
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        NSLayoutConstraint.activate([
+            loading.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            loading.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            loading.heightAnchor.constraint(equalToConstant: 42),
+            loading.widthAnchor.constraint(equalToConstant: 42),
+        ])
     }
-
 }
-
