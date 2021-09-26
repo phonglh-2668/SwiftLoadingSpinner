@@ -11,10 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Demo
 
-https://user-images.githubusercontent.com/85153866/134802196-9958defa-ed07-4f8a-a6f2-2a0c1e2fc1fe.mp4
-
-https://user-images.githubusercontent.com/85153866/134802202-1ebd8da3-cd78-4cd3-8b12-6a9471288034.mp4
-
+<img src="https://im7.ezgif.com/tmp/ezgif-7-d776c40d08f6.gif" width=“100”>
+<img src="https://im7.ezgif.com/tmp/ezgif-7-16cd488d7b2f.gif" width=“100”>
 
 ## Installation
 
